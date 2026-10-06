@@ -1,5 +1,5 @@
 # my-new-pc
-Look at my new pc ( ^ ω ^ )
+Look at my new pc (　＾ω＾)
 
 
 
