@@ -1,0 +1,37 @@
+{
+    "schema":  "private-lean-ci-status/v1",
+    "result":  "build_success",
+    "note":  "Self-reported private-runner CI result; not a public proof or independently verified attestation.",
+    "recorded_at_utc":  "2026-11-10T08:44:01Z",
+    "source_repository":  "oumi-delta/github_actions (private)",
+    "source_commit":  "ab38856af101a3a2e7c727334cc353039f32c245",
+    "workflow_run_id":  "42777443865",
+    "lean_target":  "MyLeanProject.FinalTwinIntegrationSpine",
+    "files":  [
+                  {
+                      "name":  "LowerMountainPureSpine.lean",
+                      "lines_including_blank":  180002,
+                      "bytes":  9099312
+                  },
+                  {
+                      "name":  "InfiniteDivergenceRockStep.lean",
+                      "lines_including_blank":  185817,
+                      "bytes":  7905557
+                  },
+                  {
+                      "name":  "FinalTwinIntegrationSpine.lean",
+                      "lines_including_blank":  154044,
+                      "bytes":  8289684
+                  }
+              ],
+    "totals":  {
+                   "lines_including_blank":  519863,
+                   "bytes":  25294553,
+                   "theorem_declaration_matches":  22715,
+                   "lemma_declaration_matches":  0,
+                   "definition_declaration_matches":  11860,
+                   "axiom_declaration_matches":  0,
+                   "sorry_token_matches":  0,
+                   "admit_token_matches":  0
+               }
+}
