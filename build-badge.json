@@ -1,0 +1,6 @@
+{
+    "schemaVersion":  1,
+    "label":  "Private Lean CI",
+    "message":  "build passed",
+    "color":  "brightgreen"
+}
