@@ -21,8 +21,36 @@ Build status and limited structural metrics are automatically published from a p
 **Scope:** This records a successful private Lean build. It is not a public claim of a proof of the standard Collatz conjecture. Independent mathematical review remains pending.
 
 
+### Demo File Update — November 19, 2026
+
+The previously published `demo.txt` file inadvertently contained an earlier version of the code, prior to refactoring.
+
+To preserve the revision history, the original file has been renamed to `demo_Previous_Edition_1_axiom_at_518line.txt`.
+
+The updated version has been added as `demo_Refactoring_Edition_No_axioms.txt`.
+
+The GitHub Actions verification performed on November 10, 2026, used the refactored version, and its results reported:
+
+`"axiom_declaration_matches": 0`
+
+This indicates that no matching axiom declarations were detected by that check in the verified version.
+
+**Please refer to `demo_Refactoring_Edition_No_axioms.txt` as the current version of the demonstration code.**
 
 
+### Additional Lean Verification Videos
+
+Two additional MP4 recordings have been uploaded, documenting the execution of `#print axioms` followed by `lake build`.
+
+These recordings supplement the source code and GitHub Actions verification results by showing the local verification process.
+
+The videos are provided for transparency and reference. Independent verification should be performed using the corresponding Lean source files and their dependencies.
+
+https://github.com/user-attachments/assets/66dc9518-afef-41d7-82d9-db9edf6f72bc
+
+
+
+https://github.com/user-attachments/assets/02eafab5-5724-4b58-9c47-4e5c4ef4a677
 
 
 
